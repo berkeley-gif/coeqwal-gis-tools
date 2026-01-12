@@ -1,0 +1,14 @@
+name: coeqwal-gis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - gdal=3.11.4
+  - proj=9.7.0
+  - geos
+  - sqlite
+  - libspatialite
+  - pip
+  - jq
+  - pip:
+      - mapbox-tilesets==2.2.0
